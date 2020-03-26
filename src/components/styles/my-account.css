@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Baloo+Thambi+2|Open+Sans&display=swap');
+
+.container-form  {
+    text-align: center;
+}
+
+.container-form .email-div{
+    font-weight: 700;
+}
+
+
+
+.container-form .password-div{
+    font-weight: 700;
+}
+
+
+.container-form .btn-signup{
+    margin: 10px;
+    padding: 0 16px;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    outline: 0;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    vertical-align: middle;
+    z-index: 1;
+}
+
+.container-form .btn-login{
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    padding: 0 16px;
+    line-height: 36px;
+    text-transform: uppercase;
+    background-color: #e91e63;
+    align-self: flex-start;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)
+}
+
+.logInMsg{
+    text-align: center;
+}

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Baloo+Thambi+2|Open+Sans&display=swap');
 .App {
   text-align: center;
+  font-family: 'Baloo Da 2', cursive;
 }
 
 .App-logo {

@@ -11,21 +11,21 @@ function Home(){
       <div className='container'>
         <div className='row d-flex justify-content-center'>
           <div className='col-md-4'>
-            <CardUI imgsrc={img1} title='Cocooil Body Oil' price="$11.99" />
+            <CardUI imgsrc={img1} id="1" title='Cocooil Body Oil' price="$11.99" />
           </div>
           <div className='col-md-4'>
-            <CardUI imgsrc={img2} title='Maui Moisture' price="$139.99"/>
+            <CardUI imgsrc={img2} id="2" title='Maui Moisture' price="$139.99"/>
           </div>
           <div className='col-md-4'>
-            <CardUI imgsrc={img3} title='Barth Body Oil' price="$39.99"/>
+            <CardUI imgsrc={img3} id="3" title='Barth Body Oil' price="$39.99"/>
           </div>
         </div>
         <div className='row d-flex justify-content-center'>
           <div className='col-md-4'>
-            <CardUI imgsrc={img4} title='Facial Spray' price="$34.99"/>
+            <CardUI imgsrc={img4} id="4" title='Facial Spray' price="$34.99"/>
           </div>
           <div className='col-md-4'>
-            <CardUI imgsrc={img5} title='Dose Juice' price="$21.99"/>
+            <CardUI imgsrc={img5} id="5" title='Dose Juice' price="$21.99"/>
           </div>
         </div>
       </div>

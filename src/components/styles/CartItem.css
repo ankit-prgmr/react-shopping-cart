@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Baloo+Thambi+2|Open+Sans&display=swap');
+.item{
+    display: flex;
+    border: 1px solid #e0e0e0;
+    width: 600px;
+    margin: 30px auto;
+    padding: 1rem 2rem;
+    overflow: hidden;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.item .item-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item .item-desc p {
+    margin-bottom: 0;
+}
+
+.item img{
+    width: 250px;
+    height: 250px;
+    margin-right: 2rem;
+}
+
+.item >.item-desc > .title{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #ee6e73;
+}
+
+.item > .item-desc > .btn {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    padding: 0 16px;
+    line-height: 36px;
+    text-transform: uppercase;
+    background-color: #e91e63;
+    align-self: flex-start;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)
+}
+
+.item .item-desc .add-remove .faIcon{
+    padding: 5px;
+    cursor: pointer;
+}
