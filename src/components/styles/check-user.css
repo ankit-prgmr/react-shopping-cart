@@ -22,3 +22,25 @@
     vertical-align: middle;
     z-index: 1;
 }
+
+@media (max-width: 480px) {
+    .user-container{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto 0;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .user-container h2{
+        margin: 0;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .user-container button{
+        margin: 1rem 0 0;
+        align-self: center;
+        line-height: 3rem;
+    }
+}
